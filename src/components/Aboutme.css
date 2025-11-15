@@ -1,0 +1,140 @@
+.abtme {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; 
+  padding: 3rem 2rem;
+}
+
+.contl {
+  display: flex;
+  flex-direction: column;
+}
+
+.pimg{
+  margin-top: 125px;
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 3rem;
+}
+
+
+.inf {
+  flex: 1;
+  text-align: left;
+}
+
+.inf h2 {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 20px;
+  max-width: 500px;   
+  width: fit-content;
+}
+
+.inf h3 {
+  font-size: 1.5rem;
+  color: #000000;
+  max-width: 500px;   
+  width: fit-content;
+}
+
+.inf p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.abtcomp {
+  display: flex;
+  justify-content: left;  
+  gap: 1rem;               
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  align-items: center; 
+         
+}
+
+.lang {
+  background-color: #ffffff;        
+  width: 200px;                 
+  height: 150px;                 
+  border-radius: 15px;          
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  gap: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  padding: 0.5rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.lang:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.langtxt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.langtxt h2 {
+  font-size: 20px;
+  margin: 0;
+  color: black;
+}
+
+.icl {
+  width: 25px;
+  height: 25px;
+}
+
+.stdy, .contproj {
+  background-color: #ffffff;        
+  width: 200px;                 
+  height: 150px;                 
+  border-radius: 15px;           
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  text-align: center;           
+}
+
+.stdy:hover, .contproj:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+
+.icc, .icp {
+  width: 30px;
+  height: 30px;
+}
+
+
+.stdy h2, .contproj h2 {
+  margin: 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+
+.stdy p, .contproj p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: black;
+}
+
+
+

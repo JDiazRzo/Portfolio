@@ -1,0 +1,36 @@
+
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background: white;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.body h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  margin-right: 195px;
+}
+
+.body h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.body p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+
+
