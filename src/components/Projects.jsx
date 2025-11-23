@@ -6,7 +6,7 @@ function Projects() {
     
     return (
 
-        <div className='projects'>
+        <section id="proyectos" className='projects'>
 
             <div className='prjtxt'>
                 <p>PROJECTS</p>
@@ -37,20 +37,25 @@ function Projects() {
                 </div>
 
                 <div className='proj'>
-                    <img src={Project2} alt="Imagen de portada de la bitacora" className='projectimg'/>
+                    <img src={Project2} alt="Imagen de portada del proyecto Music Store" className='projectimg'/>
+
                     <div className='prjinfo'>
                         <h2>Music Store</h2>
-                        <p> Online guitar store using React, HTML and Tailwind CSS, using API integration </p>
-                        <button>Code </button>
-                        <button>Preview </button>
+                        <p> Online guitar store using React, HTML and Tailwind CSS, with API integration. </p>
+
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <button>Code</button>
+                        </a>
+
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <button>Preview</button>
+                        </a>
                     </div>
                 </div>
             </div>
 
-
-        </div>
+        </section>
     );
 }
 
-
-export default Projects
+export default Projects;

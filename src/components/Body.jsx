@@ -10,14 +10,22 @@ function Body() {
   return (
     <div className="body">
 
+      <section id="presentation">
         <Presentation />
+      </section>
 
+      <section id="projects">
         <Projects />
+      </section>
 
+      <section id="aboutme">
         <Aboutme />
+      </section>
 
+      <section id="contact">
         <Getcontact />
-      
+      </section>
+
     </div>
   );
 }

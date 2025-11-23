@@ -2,9 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
-  padding: 4rem 6rem;
-  border-radius: 2rem;
+  margin-top: 140px;
+  margin-bottom: 50px;
 }
 
 .gcontl {
@@ -13,12 +12,20 @@
   color: #333;
   line-height: 1.6;
   text-align: left;
+  margin-right: 125px;
+}
+
+.gcontl hr {
+  border: 2px solid #3A3C41;   
 }
 
 .gcontr {
   flex: 1;
   display: flex;
   justify-content: center;
+  border-radius: 20px;
+  background-color: #2B2D31;
+  box-shadow: 1px solid rgba(0, 0, 0, 0.35);
 }
 
 .contact-form {
@@ -36,7 +43,7 @@
 label {
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #222;
+  color: #ffffff;
 }
 
 input,
@@ -51,14 +58,13 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #4f46e5; /* tono violeta azulado moderno */
-  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+  border-color: #4C8CF5; 
 }
 
 .send-btn {
   width: 100%;
-  background: #4f46e5;
   color: white;
+  background: #4C8CF5;
   font-weight: 600;
   font-size: 1rem;
   border: none;
@@ -69,11 +75,49 @@ textarea:focus {
 }
 
 .send-btn:hover {
-  background: #3730a3;
+  background: #3A76D9;
   transform: translateY(-2px);
 }
 
 .send-btn:active {
   transform: translateY(0);
+}
+
+
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 14px 22px;
+    border-radius: 12px;
+    font-size: 15px;
+    background: #3A76D9;
+    color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    animation: fadeIn 0.3s ease, fadeOut 0.5s ease 3s forwards;
+    z-index: 9999;
+}
+
+.toast.error {
+    background: rgba(255, 70, 70, 0.85);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
 }
 

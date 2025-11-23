@@ -1,14 +1,13 @@
 import './Aboutme.css';
-import Photo1 from '../assets/Photo1.webp'
-import Iconc from '../assets/Iconc.png'
-import Icons from '../assets/Icons.png'
-import Iconp from '../assets/Iconp.png'
-import SliderLa from './SliderLa'
+import { FaFolder, FaCode } from "react-icons/fa";
+import { RiGraduationCapFill } from "react-icons/ri";
+import Photo1 from '../assets/Photo1.webp';
+import SliderLa from './SliderLa';
 
 function Aboutme () {
     return (
         
-        <div className='abtme'>
+        <section className='abtme'>
 
             <div className='contl'>
 
@@ -29,27 +28,28 @@ function Aboutme () {
                 </div>
                 
                 <div className='abtcomp'>
+                    
                     <div className='lang'>
                         <div className='langtxt'>
-                            <img src={Iconc} alt="Iconcode" className='icl'/>
+                            <FaCode />
                             <h2>Languages</h2>
                         </div>
                         <SliderLa />
                     </div>
 
                     <div className='stdy'>
-                        <img src={Icons} alt="Iconstudy" className='icc'/>
+                        <RiGraduationCapFill />
                         <h2>Education</h2>
                         <p>Universidad EAN - Systems Engineer</p>
                     </div>
 
                     <div className='contproj'>
-                        <img src={Iconp} alt="Iconcarpet" className='icp'/>
+                        <FaFolder />
                         <h2>Projects</h2>
                         <p>3</p>
                     </div>
+
                 </div>
-                
                 
             </div>
 
@@ -57,10 +57,8 @@ function Aboutme () {
                 <img src={Photo1} alt="Foto personal" className='pimg'/>
             </div>
 
-        </div>
+        </section>
     );
 }
-
-
 
 export default Aboutme;
