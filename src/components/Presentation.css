@@ -1,0 +1,151 @@
+hr {
+  width: 75%;       
+  margin: 1.5rem 0;   
+  border: 2px solid #3A3C41;  
+  border-radius: 2px;      
+  align-self: flex-start;  
+}
+
+.presntion {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    margin-top: 120px; /* CAMBIARLO CUANDO ESTE LA HOTBAR ARRIBA */
+}
+
+.contl {
+    display: flex;
+    flex-direction: column;
+}
+
+.iphp {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px;
+
+}
+
+.inf {
+    flex: 1;
+    text-align: left;
+}
+
+.inf h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.inf h2 {
+  font-size: 2rem;
+  color: #b5b5b5;
+  margin-bottom: 20px;
+}
+
+.inf p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.bttnsbw {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bttnbw svg {
+  width: 22px;
+  height: 22px;
+  gap: 10px;
+  color: #ffffff; 
+}
+
+.bttnbw {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+
+.bttnbw p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 0;
+}
+
+.iconbw {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    align-self: start;
+    margin-top: 1px;
+}
+
+.bttncv {
+    margin-top: 20px;
+}
+
+.fmosm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fmosm p {
+    font-weight: 500;
+    margin: 0;
+    margin-right: 20px; 
+}
+
+.sml ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    margin-top: 2px;
+    list-style: none;
+    
+}
+
+.sml ul li svg {
+  width: 26px;
+  height: 26px;
+  color: #ffffff;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.sml ul li svg:hover {
+  color: #3A76D9;
+  transform: translateY(-2px);
+}
+
+.contr .imgper{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 3rem;
+}
+
+
+.bttncv button {
+  background: #4C8CF5;     
+  color: #FFFFFF;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+
+.bttncv button:hover {
+  background: #3A76D9;     
+  transform: translateY(-2px);
+}
+
+.bttncv button:active {
+  background: #3167BF;    
+  transform: translateY(0);
+}

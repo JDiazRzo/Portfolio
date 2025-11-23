@@ -1,0 +1,49 @@
+:root {
+  --bg: #1E1F22;
+  --bg-soft: #2B2D31;
+  --text: #ECECEC;
+  --text-soft: #C7C7C7;
+  --border: #3A3C41;
+  --accent: #10A37F;
+}
+
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  background: #1E1F22;   /* fondo general */
+  color: #ECECEC;         /* texto principal */
+
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.body h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  margin-right: 195px;
+
+  color: #FFFFFF;         /* más contraste */
+}
+
+.body h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+
+  color: #ECECEC;
+}
+
+.body p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+
+  color: #C7C7C7;         /* texto secundario suave */
+}
