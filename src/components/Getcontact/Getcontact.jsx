@@ -69,7 +69,7 @@ function GetContact() {
             <div className="mb-6">
               <ReCAPTCHA
                 ref={recaptchaRef}
-                sitekey={import.meta.env.SITE_KEY}
+                sitekey="6LemJ4QsAAAAAIw1KoHXm-Vtuf1-FtXrxVV-Ypjj"
                 onChange={() => setCaptchaVerified(true)}
                 onExpired={() => setCaptchaVerified(false)}
                 theme="dark"
@@ -82,7 +82,7 @@ function GetContact() {
             </button>
 
           </form>
-          
+
         </SpotlightCard>
 
       </div>
