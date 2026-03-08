@@ -1,10 +1,13 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import SpotlightCard from '../SpotlightCard/SpotLightCard';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 function GetContact() {
   const form = useRef();
+  const recaptchaRef = useRef();
   const [toast, setToast] = useState(null);
+  const [captchaVerified, setCaptchaVerified] = useState(false);
 
   const showToast = (msg, type = "success") => {
     setToast({ msg, type });
@@ -13,10 +16,18 @@ function GetContact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (!captchaVerified) {
+      showToast("Please complete the reCAPTCHA.", "error");
+      return;
+    }
+
     emailjs.sendForm('service_dl7ji3p', 'template_pfbhj3g', form.current, 'BbaI-yQrHrGFriM_6')
       .then(() => {
         showToast("Message sent successfully!");
         form.current.reset();
+        recaptchaRef.current.reset();
+        setCaptchaVerified(false);
       })
       .catch(() => showToast("Something went wrong. Try again.", "error"));
   };
@@ -53,6 +64,16 @@ function GetContact() {
               <label className="font-semibold text-white mb-2">Message</label>
               <textarea name="message" rows="5" required placeholder="Write your message here..."
                 className="px-4 py-3 border border-[#3A3C41] rounded-xl bg-[#1E1F22] text-white outline-none focus:border-[#4C8CF5] transition-colors duration-200 resize-none w-full" />
+            </div>
+
+            <div className="mb-6">
+              <ReCAPTCHA
+                ref={recaptchaRef}
+                sitekey={import.meta.env.SITE_KEY}
+                onChange={() => setCaptchaVerified(true)}
+                onExpired={() => setCaptchaVerified(false)}
+                theme="dark"
+              />
             </div>
 
             <button type="submit"
