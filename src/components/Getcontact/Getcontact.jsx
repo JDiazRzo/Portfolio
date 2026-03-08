@@ -82,7 +82,9 @@ function GetContact() {
             </button>
 
           </form>
+          
         </SpotlightCard>
+
       </div>
 
       {toast && (
