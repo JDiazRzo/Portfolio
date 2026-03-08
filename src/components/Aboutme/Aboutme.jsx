@@ -4,18 +4,18 @@ import LogoLoop from "../LogoLoop/LogoLoop";
 import SpotlightCard from "../SpotlightCard/SpotLightCard";
 
 const icons = [
-  {src: "/Portfolio/Icons/css.svg", alt: "css"},
-  {src: "/Portfolio/Icons/git.svg", alt: "git"},
-  {src: "/Portfolio/Icons/github.svg", alt: "github"},
-  {src: "/Portfolio/Icons/html.svg", alt: "html"},
-  {src: "/Portfolio/Icons/js.svg", alt: "javascript"},
-  {src: "/Portfolio/Icons/mongo.svg", alt: "mongodb"},
-  {src: "/Portfolio/Icons/node.svg", alt: "nodejs"},
-  {src: "/Portfolio/Icons/postgre.svg", alt: "postgreSQL"},
-  {src: "/Portfolio/Icons/python.svg", alt: "python"},
-  {src: "/Portfolio/Icons/react.svg", alt: "react"},
-  {src: "/Portfolio/Icons/tailwind.svg", alt: "tailwind"},
-  {src: "/Portfolio/Icons/tensorfl.svg", alt: "tensorflow"},
+  {src: "/Icons/css.svg", alt: "css"},
+  {src: "/Icons/git.svg", alt: "git"},
+  {src: "/Icons/github.svg", alt: "github"},
+  {src: "/Icons/html.svg", alt: "html"},
+  {src: "/Icons/js.svg", alt: "javascript"},
+  {src: "/Icons/mongo.svg", alt: "mongodb"},
+  {src: "/Icons/node.svg", alt: "nodejs"},
+  {src: "/Icons/postgre.svg", alt: "postgreSQL"},
+  {src: "/Icons/python.svg", alt: "python"},
+  {src: "/Icons/react.svg", alt: "react"},
+  {src: "/Icons/tailwind.svg", alt: "tailwind"},
+  {src: "/Icons/tensorfl.svg", alt: "tensorflow"},
 ];
 
 function Aboutme() {
