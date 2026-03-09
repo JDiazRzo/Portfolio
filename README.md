@@ -3,9 +3,7 @@
 <div align="center">
 
 [![Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-psi-lime-88.vercel.app/)
-
 [![Docs](https://img.shields.io/badge/Docs-Mintlify-000000?style=for-the-badge&logo=gitbook&logoColor=white)](https://jdiazrzo-portfolio.mintlify.app/)
-
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JDiazRzo/Portfolio)
 
 ---
@@ -31,7 +29,7 @@
 
 ---
 
-### 📖 Documentación completa
+### 📖 Full Documentation
 
 [![Docs](https://img.shields.io/badge/Docs-Mintlify-000000?style=for-the-badge&logo=gitbook&logoColor=white)](https://jdiazrzo-portfolio.mintlify.app/customization/brand-colors)
 
