@@ -3,6 +3,9 @@
 <div align="center">
 
 [![Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-psi-lime-88.vercel.app/)
+
+[![Docs](https://img.shields.io/badge/Docs-Mintlify-000000?style=for-the-badge&logo=gitbook&logoColor=white)](https://jdiazrzo-portfolio.mintlify.app/)
+
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JDiazRzo/Portfolio)
 
 ---
@@ -22,13 +25,13 @@
 - Projects showcase 
 - About Me section 
 - Contact form with EmailJS and reCAPTCHA v2
-- Aurora animated background using 
-- Fully responsives
-- Built with React Bits
+- Aurora animated background
+- Fully responsive
+- Built with React Bits (SpotlightCard, LogoLoop, Aurora Background)
 
 ---
 
-### ♾️ Docs
+### 📖 Documentación completa
 
 [![Docs](https://img.shields.io/badge/Docs-Mintlify-000000?style=for-the-badge&logo=gitbook&logoColor=white)](https://jdiazrzo-portfolio.mintlify.app/customization/brand-colors)
 
