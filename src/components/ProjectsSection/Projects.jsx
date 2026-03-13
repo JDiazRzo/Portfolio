@@ -1,11 +1,11 @@
 import Project1 from '/img/Project1.png';
+import Project2 from '/img/Project2.png';
 import SpotlightCard from '../SpotlightCard/SpotLightCard';
 
 function Projects() {
   return (
     <section className="flex flex-col items-center mt-28 px-16 text-[#ECECEC]">
 
-     
       <div className="flex flex-col items-center text-center mb-8">
         <p className="text-sm tracking-widest uppercase text-white/50 mb-2">PROJECTS</p>
         <h2 className="text-3xl font-bold text-white mb-4">Featured Work</h2>
@@ -15,9 +15,9 @@ function Projects() {
         </p>
       </div>
 
-     
-      <div className="flex justify-center p-8 w-full">
-        <SpotlightCard className="w-[320px]" spotlightColor="rgba(0, 229, 255, 0.2)">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-8 w-full">
+
+        <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
           <div className="flex flex-col items-center gap-4 rounded-2xl p-6">
             <img src={Project1} alt="Music Store" className="w-full rounded-xl object-cover" />
             <div className="flex flex-col items-center gap-3 text-center">
@@ -40,6 +40,31 @@ function Projects() {
             </div>
           </div>
         </SpotlightCard>
+
+        <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
+          <div className="flex flex-col items-center gap-4 rounded-2xl p-6">
+            <img src={Project2} alt="Portfolio" className="w-full rounded-xl object-cover" />
+            <div className="flex flex-col items-center gap-3 text-center">
+              <h2 className="text-xl font-semibold text-white">Portfolio</h2>
+              <p className="text-[#C7C7C7] text-sm">
+                Personal portfolio built with React, Tailwind and GSAP animations. Showcases projects, skills and contact information.
+              </p>
+              <div className="flex gap-3 py-7">
+                <a href="https://github.com/JDiazRzo/Portfolio" target="_blank" rel="noopener noreferrer">
+                  <button className="bg-white/10 backdrop-blur-md text-white px-5 py-3 rounded-xl text-sm font-medium border border-white/20 hover:bg-white/20 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 shadow-lg">
+                    Code
+                  </button>
+                </a>
+                <a href="https://portfolio-psi-lime-88.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className="bg-white/10 backdrop-blur-md text-white px-5 py-3 rounded-xl text-sm font-medium border border-white/20 hover:bg-white/20 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 shadow-lg">
+                    Preview
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </SpotlightCard>
+
       </div>
     </section>
   );

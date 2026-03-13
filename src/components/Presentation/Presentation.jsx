@@ -60,7 +60,7 @@ function Presentation() {
         </div>
       </div>
 
-      <div className="w-[250px] h-[250px] md:w-[400px] md:h-[400px] mx-2 flex-shrink-0">
+      <div className="w-[10px] h-[10px] md:w-[400px] md:h-[400px] mx-2 ">
         <img src={Pfp} className="w-full h-full object-cover rounded-2xl" />
       </div>
 
