@@ -1,5 +1,6 @@
 import Project1 from '/img/Project1.png';
 import Project2 from '/img/Project2.png';
+import Project3 from '/img/Project3.png';
 import SpotlightCard from '../SpotlightCard/SpotLightCard';
 
 function Projects() {
