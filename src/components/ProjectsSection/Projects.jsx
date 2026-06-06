@@ -65,6 +65,30 @@ function Projects() {
           </div>
         </SpotlightCard>
 
+        <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
+          <div className="flex flex-col items-center gap-4 rounded-2xl p-6">
+            <img src={Project3} alt="Aurum" className="w-full rounded-xl object-cover" />
+            <div className="flex flex-col items-center gap-3 text-center">
+              <h2 className="text-xl font-semibold text-white">Aurum - Personal finance assistant with AI-powered</h2>
+              <p className="text-[#C7C7C7] text-sm">
+                Personal finance assistant with AI-powered anomaly detection, budget tracking, and a conversational financial advisor built with React, Node.js, Python, and Supabase.
+              </p>
+              <div className="flex gap-3 py-7">
+                <a href="https://github.com/JDiazRzo/aurum" target="_blank" rel="noopener noreferrer">
+                  <button className="bg-white/10 backdrop-blur-md text-white px-5 py-3 rounded-xl text-sm font-medium border border-white/20 hover:bg-white/20 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 shadow-lg">
+                    Code
+                  </button>
+                </a>
+                <a href="https://aurum-eosin.vercel.app/dashboard" target="_blank" rel="noopener noreferrer">
+                  <button className="bg-white/10 backdrop-blur-md text-white px-5 py-3 rounded-xl text-sm font-medium border border-white/20 hover:bg-white/20 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 shadow-lg">
+                    Preview
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </SpotlightCard>
+
       </div>
     </section>
   );
