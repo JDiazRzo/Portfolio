@@ -20,7 +20,7 @@ function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-8 w-full">
 
         <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
-          <div className="flex flex-col items-center gap-4 rounded-2xl p-6">
+          <div id="project-1" className="flex flex-col items-center gap-4 rounded-2xl p-6">
             <img src={Project1} alt="Music Store" className="w-full rounded-xl object-cover" />
             <div className="flex flex-col items-center gap-3 text-center">
               <h2 className="text-xl font-semibold text-white">Music Store</h2>
@@ -44,7 +44,7 @@ function Projects() {
         </SpotlightCard>
 
         <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
-          <div className="flex flex-col items-center gap-4 rounded-2xl p-6">
+          <div id="project-2" className="flex flex-col items-center gap-4 rounded-2xl p-6">
             <img src={Project2} alt="Portfolio" className="w-full rounded-xl object-cover" />
             <div className="flex flex-col items-center gap-3 text-center">
               <h2 className="text-xl font-semibold text-white">Portfolio</h2>
@@ -68,7 +68,7 @@ function Projects() {
         </SpotlightCard>
 
         <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
-          <div className="flex flex-col items-center gap-4 rounded-2xl p-6">
+          <div id="project-3" className="flex flex-col items-center gap-4 rounded-2xl p-6">
             <img src={Project3} alt="Aurum" className="w-full rounded-xl object-cover" />
             <div className="flex flex-col items-center gap-3 text-center">
               <h2 className="text-xl font-semibold text-white">Aurum - Personal finance assistant with AI-powered</h2>
@@ -92,10 +92,10 @@ function Projects() {
         </SpotlightCard>
 
         <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
-          <div className="flex flex-col items-center gap-4 rounded-2xl p-6">
+          <div id="project-4" className="flex flex-col items-center gap-4 rounded-2xl p-6">
             <img src={Project4} alt="ElPuntoDeLasMaderas" className="w-full rounded-xl object-cover" />
             <div className="flex flex-col items-center gap-3 text-center">
-              <h2 className="text-xl font-semibold text-white">Aurum - Personal finance assistant with AI-powered</h2>
+              <h2 className="text-xl font-semibold text-white">El Punto de las Maderas</h2>
               <p className="text-[#C7C7C7] text-sm">
                 E-commerce catalog for El Punto de las Maderas, a Colombian lumber and hardware store. Built with React, Vite, Tailwind, and Supabase. Features a product catalog with search and category filters, an admin panel for full product and category management with image upload, CSV bulk import, and authentication with password recovery. Deployed on Cloudflare Pages with a custom domain.
               </p>

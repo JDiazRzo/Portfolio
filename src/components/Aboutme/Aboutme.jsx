@@ -2,6 +2,7 @@ import { FaFolder } from "react-icons/fa";
 import abt from '/img/abt.jpg';
 import LogoLoop from "../LogoLoop/LogoLoop";
 import SpotlightCard from "../SpotlightCard/SpotLightCard";
+import projects from "../../data/projects";
 
 const icons = [
   {src: "/Icons/css.svg", alt: "css"},
@@ -51,7 +52,7 @@ function Aboutme() {
               <div className="flex flex-col items-center justify-center gap-1 p-2 h-full text-center">
                 <FaFolder className="w-6 h-6" />
                 <h2 className="text-sm uppercase text-white">Projects</h2>
-                <p className="text-xs text-white">1</p>
+                <p className="text-xs text-white">{projects.length}</p>
               </div>
             </SpotlightCard>
           </div>
