@@ -68,6 +68,25 @@ function Projects() {
 
         <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
           <div className="flex flex-col items-center gap-4 rounded-2xl p-6">
+            <img src={Project3} alt="ElPuntoDeLasMaderas" className="w-full rounded-xl object-cover" />
+            <div className="flex flex-col items-center gap-3 text-center">
+              <h2 className="text-xl font-semibold text-white">Aurum - Personal finance assistant with AI-powered</h2>
+              <p className="text-[#C7C7C7] text-sm">
+                E-commerce catalog for El Punto de las Maderas, a Colombian lumber and hardware store. Built with React, Vite, Tailwind, and Supabase. Features a product catalog with search and category filters, an admin panel for full product and category management with image upload, CSV bulk import, and authentication with password recovery. Deployed on Cloudflare Pages with a custom domain.
+              </p>
+              <div className="flex gap-3 py-7">
+                <a href="https://elpuntodelasmaderas.com/" target="_blank" rel="noopener noreferrer">
+                  <button className="bg-white/10 backdrop-blur-md text-white px-5 py-3 rounded-xl text-sm font-medium border border-white/20 hover:bg-white/20 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 shadow-lg">
+                    Preview
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </SpotlightCard>
+
+        <SpotlightCard spotlightColor="rgba(0, 229, 255, 0.2)">
+          <div className="flex flex-col items-center gap-4 rounded-2xl p-6">
             <img src={Project3} alt="Aurum" className="w-full rounded-xl object-cover" />
             <div className="flex flex-col items-center gap-3 text-center">
               <h2 className="text-xl font-semibold text-white">Aurum - Personal finance assistant with AI-powered</h2>
